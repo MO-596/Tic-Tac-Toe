@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:fitsSystemWindows="true">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="112dp"
+    tools:context=".NamePageFragment"
+    android:fitsSystemWindows="true"
+    android:background="@color/activity_background">
+<!--Temp fix:     android:paddingTop="112dp"  cause anything else doesn't work -->
+<!--Old Line:     android:paddingTop="?attr/actionBarSize"-->
+<!--first row-->
+
+
+    <!--Second Row-->
+    <TextView
+        android:id="@+id/NameTitle"
+        style="@style/TitleStyle"
+
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="15dp"
+
+        android:text="@string/Name_Page_Title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvplayer1_Name"
+        style="@style/SubTitleStyle"
+
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+
+        android:text="@string/Player1"
+
+        app:layout_constraintBottom_toTopOf="@+id/etplayer1Name"
+        app:layout_constraintStart_toStartOf="@+id/etplayer1Name" />
+
+<!--Third Row-->
+    <EditText
+        android:id="@+id/etplayer1Name"
+        style="@style/NameInputStyle"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:hint="@string/Enter_Player_1_Name_Hint"
+        android:autofillHints=""
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/NameTitle" />
+
+<!--Fourth Row-->
+    <TextView
+        android:id="@+id/tvplayer2_Name"
+        style="@style/SubTitleStyle"
+
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+
+        android:text="@string/Player2"
+
+        app:layout_constraintBottom_toTopOf="@id/etplayer2Name"
+        app:layout_constraintStart_toStartOf="@id/etplayer2Name" />
+
+<!--Fifth Row-->
+    <EditText
+        android:id="@+id/etplayer2Name"
+        style="@style/NameInputStyle"
+
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+
+        android:inputType="text"
+        android:autofillHints=""
+
+
+        android:hint="@string/Enter_Player_2_Name_Hint"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etplayer1Name"
+       />
+
+<!--Sixth Row-->
+    <Button
+        android:id="@+id/submit_names"
+        style="@style/ButtonStyle"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/Button_Submit_Names"
+
+        app:layout_constraintTop_toBottomOf="@id/etplayer2Name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

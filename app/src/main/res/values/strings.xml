@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Tic-Tac-Toe Duel</string>
+
+    <!--Main Menu strings-->
+    <string name="Main_Menu_title">Tic-Tac-Toe Duel</string>
+    <string name="Button_Start">Play</string>
+    <string name="app_logo">app icon logo</string>
+    <!--Names Page strings-->
+    <string name="Name_Page_Title">Names of\n Players</string>
+    <string name="Player1">Player 1</string>
+    <string name="Enter_Player_1_Name_Hint">Enter Name Here</string>
+    <string name="Player2">Player 2</string>
+    <string name="Enter_Player_2_Name_Hint">Enter Name Here</string>
+
+    <!--Button Strings-->
+    <string name="Button_Submit_Names">Submit</string>
+    <string name="Play_Again_Label">Play Again</string>
+    <string name="Quit_Label">Quit</string>
+
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--The App Theme color here-->
+    <color name="colorPrimary">#00BCD1</color>
+    <color name="colorPrimaryDark">#00838F</color>
+    <color name="colorAccent">#00838F</color>
+    <color name="activity_background">#F6F0F6</color>
+<!--    <color name="secondPrimary">#ae9da9</color>-->
+
+<!--Colors of the various pieces of the app -->
+    <color name="button_color">#00838F</color>
+    <color name="Title_color">#0097A7</color>
+    <color name="Sub_Title_color">#00BCD4</color>
+    <color name="Winner_Display_color">#00B8D4</color>
+    <color name="Boards_Buttons_color">#F6F0F6</color>
+    <color name="O_color">#80DEEA</color>
+    <color name="X_color">#00838F</color>
+<!--General Colors-->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="Light_Gray">#C4BEBE</color>
+    <color name="purple">#9C27B0</color>
+    <color name="darkBlue">#333F87</color>
+    <color name="darkGreen">#225E24</color>
+    <color name="green">#4CAF50</color>
+    <color name="grey">#78909C</color>
+    <color name="red">#F60606</color>
+    <color name="light_blue">#2FE6FD</color>
+    <color name="khaki">#8D6E63</color>
+</resources>
