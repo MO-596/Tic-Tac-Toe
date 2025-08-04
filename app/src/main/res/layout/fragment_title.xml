@@ -59,7 +59,7 @@
         android:layout_marginBottom="4dp"
 
         ads:adSize="BANNER"
-        ads:adUnitId="ca-app-pub-7318525606558822/4095175569"
+        ads:adUnitId="[your own url]"
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
