@@ -311,7 +311,7 @@ public class gameFragment extends Fragment {
     }
     private void loadInterstitialAd() {
         AdRequest adRequest = new AdRequest.Builder().build();
-        InterstitialAd.load(requireActivity(),"ca-app-pub-7318525606558822/9504264975", adRequest,
+        InterstitialAd.load(requireActivity(),"[your url]", adRequest,
                 new InterstitialAdLoadCallback() {
                     @Override
                     public void onAdLoaded(@NonNull InterstitialAd interstitialAd) {
