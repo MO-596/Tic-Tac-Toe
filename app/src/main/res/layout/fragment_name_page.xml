@@ -37,7 +37,6 @@
     <TextView
         android:id="@+id/tvplayer1_Name"
         style="@style/SubTitleStyle"
-
         android:layout_height="wrap_content"
         android:layout_width="0dp"
 
